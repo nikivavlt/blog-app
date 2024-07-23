@@ -1,0 +1,50 @@
+$lightGreen: #b9e7e7;
+$colorBlue: hsl(214, 98%, 59%);
+$container-color: hsl(189, 34%, 88%);
+$text-color: hsl(223, 5%, 29%);
+
+$color-primary: #6f6af8;
+$color-white: #fff;
+$color-red: rgb(219, 3, 3);
+$color-gray-100: hsl(220, 20%, 10%, 5%);
+$color-gray-200: hsl(220, 20%, 10%, 10%);
+$color-gray-300: hsl(220, 20%, 10%, 25%);
+$color-gray-500: hsl(220, 20%, 10%, 50%);
+$color-gray-700: #252542;
+$color-gray-900: #0c0c22;
+
+$color-blue: hsl(214, 98%, 59%); // done
+$color-bg: hsl(189, 34%, 88%); // done
+$color-orange: hsl(36, 100%, 48%);
+
+$transition: all 300ms ease;
+
+$container-width-lg: 84%;
+$container-width-md: 92%;
+$form-width: 50%;
+
+$radius-1: 0.3rem;
+$radius-2: 0.6rem;
+$radius-3: 1rem;
+$radius-4: 2rem;
+
+
+:root {
+    --title-color: hsl(225, 8%, 15%);
+    --text-color: hsl(223, 5%, 29%);
+    --container-color: hsl(189, 34%, 88%);
+    --color-white: hsl(225, 60%, 99%);
+    --color-orange: hsl(36, 100%, 48%);
+    --color-blue: hsl(214, 98%, 59%);
+    --color-red: hsl(0, 98%, 52%);
+    --color-light-blue: hsl(214, 100%, 73%);
+    --input-color: hsl(225, 70%, 96%);
+
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-bold: 700;
+
+    --large-font-size: 0.938rem;
+    --medium-font-size: 0.813rem;
+    --small-font-size: 0.75rem;
+}

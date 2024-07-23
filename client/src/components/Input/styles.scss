@@ -1,0 +1,73 @@
+.form-input {
+    display: flex;
+    flex-direction: column;
+
+    input {
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid gray;
+    }
+
+    span {
+        font-size: 12px;
+        padding: 3px;
+        color: red;
+        display: block;
+    }
+
+    .invalid {
+        border: 1px solid red;
+    }
+}
+
+
+// 
+.spin {
+    padding-left: 2.5em;
+    display: block;
+    position: relative;
+  }
+
+.spinner {
+    left: -0.9rem;
+    top: .4em;
+    width: 2.5rem;
+    display: block;
+    position: absolute;
+}
+
+  
+/* The actual spinner element is a pseudo-element */
+.spinner::before {
+content: "";
+    width: 1rem; /* Size of the spinner */
+    height: 1rem; /* Change as desired */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    border: solid .35em #999; /* Thickness/color of spinner track */
+    border-bottom-color: #242424; /* Color of variant spinner piece */
+    animation: .8s linear infinite spinner; /* speed of spinner */
+    transform: translate(-50%, -50%);
+    will-change: transform;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+button:disabled {
+    outline: none;
+    background: #aaa;
+}
+
+button:disabled:hover {
+    background: #aaa;
+}
